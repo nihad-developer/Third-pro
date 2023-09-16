@@ -180,13 +180,10 @@ header .btn {
   width: 300px;
   text-align: center;
 }
-#howitworks .textbox {
-  margin-top: 32px;
-}
 #howitworks .textbox h2 {
   font-weight: 700;
   font-size: 25px;
-  margin-bottom: 8px;
+  margin: 32px 0 8px;
 }
 #howitworks .textbox h4 {
   font-size: 20px;
@@ -196,6 +193,14 @@ header .btn {
 @media screen and (max-width: 992px) {
   #howitworks .box {
     width: auto;
+  }
+  #howitworks .box h2 {
+    font-size: 40px;
+    margin: 0;
+  }
+  #howitworks .box h4 {
+    font-size: 24px;
+    margin: 16px 0;
   }
 }
 
@@ -228,11 +233,8 @@ header .btn {
   color: #ffffff;
   border: 0;
 }
-#ourmenu .background-color {
-  background-color: #f2f8fa;
-}
 #ourmenu .box {
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   padding: 30px 30px 25px;
   margin-bottom: 20px;
 }
